@@ -97,7 +97,7 @@ const httpTrigger: AzureFunction = async function (
     // List releases
     // https://docs.github.com/en/rest/releases/releases
     const { data: releases } = await axios.get<Release[]>(
-      "https://api.github.com/repos/YanceyOfficial/hyperchat/releases"
+      "https://api.github.com/repos/Hyper-Chat-Bot/hyperchat/releases"
     );
 
     // Filter the latest release version.
