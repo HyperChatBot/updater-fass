@@ -9,7 +9,7 @@
         "get",
         "post"
       ],
-      "route": "updater/{target:alpha}/{arch:alpha}/{current_version:alpha}"
+      "route": "updater/{target}/{arch}/{current_version}"
     },
     {
       "type": "http",
